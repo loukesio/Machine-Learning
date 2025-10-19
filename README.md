@@ -245,12 +245,13 @@ Static memory allocation is a memory management technique where memory is alloca
 
 # Books 
 
+
 <img src="Hands_on.jpeg" style="height:128px;margin-right:64px"/>
 
-# Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-System-2022-O-Reilly-Media-libgen.li.pdf
+<details> <summary><b>
+Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (3rd Edition, 2022) - Comprehensive Chapter Summaries
+</b></summary>
 
-
-## **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (3rd Edition, 2022) - Comprehensive Chapter Summaries**
 
 ### **Chapter 1: The Machine Learning Landscape**
 
@@ -522,8 +523,10 @@ The Aurélien Géron book is incredibly comprehensive, covering the entire ML sp
 The book emphasizes hands-on coding with real datasets, proper evaluation methodology, and production best practices. Every chapter includes practical exercises and Jupyter notebooks. The 3rd edition (2022) is the most up-to-date, covering transformers, vision transformers, diffusion models, and modern deployment strategies.
 
 ***
+</details>
 
 
+<img src="Screenshot 2025-10-19 at 20.37.17.png" style="height:128px;margin-right:64px"/>
 
 ## **Artificial Intelligence in Drug Design (Alexander Heifetz, Editor, 2022) - Comprehensive Chapter Summaries**
 
