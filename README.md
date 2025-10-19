@@ -117,241 +117,425 @@ Static memory allocation is a memory management technique where memory is alloca
 **Model optimization**: **Quantization** reduces precision (32-bit to 8-bit integers), decreasing model size and computation. **Pruning** removes unnecessary weights/neurons with minimal accuracy loss. **Knowledge distillation** trains smaller "student" models to mimic larger "teacher" models. **Model compression** combines techniques to reduce size while maintaining performance. **Architecture choices**: Use efficient architectures like MobileNet, EfficientNet, or SqueezeNet designed for speed. Replace complex operations with faster alternatives. **Hardware acceleration**: Use GPUs, TPUs, or specialized AI chips for parallel processing. **Batch processing**: Process multiple inputs simultaneously rather than individually. **Caching**: Store and reuse intermediate computations for repeated inputs. **Early stopping**: Terminate computation when confidence threshold is reached. **Approximate methods**: Use approximate nearest neighbor search instead of exact search. **Preprocessing**: Optimize data pipelines, reduce input resolution where acceptable. **Framework optimization**: Use optimized inference engines like TensorRT, ONNX Runtime, or TensorFlow Lite. **Parallelization**: Distribute computation across multiple cores/devices.[^79][^75][^76][^13]
 <span style="display:none">[^100][^101][^102][^103][^104][^105][^106][^107][^108][^109][^110][^111][^112][^113][^114][^115][^116][^117][^118][^85][^86][^87][^88][^89][^90][^91][^92][^93][^94][^95][^96][^97][^98][^99]</span>
 
+  
+<details>
+  <summary><b>🔎 Click to view References</b></summary>
+
+<a id="ref1"></a>1. <https://insightsoftware.com/blog/machine-learning-vs-traditional-programming/> [↩](#cite1)  
+<a id="ref2"></a>2. <https://www.linkedin.com/pulse/how-machine-learning-different-from-general-programming-zlcuf> [↩](#cite2)  
+<a id="ref3"></a>3. <https://www.geeksforgeeks.org/machine-learning/traditional-programming-vs-machine-learning/> [↩](#cite3)  
+<a id="ref4"></a>4. <https://unp.education/content/how-machine-learning-is-different-from-general-programming/> [↩](#cite4)  
+<a id="ref5"></a>5. <https://sparks.codezela.com/machine-learning-vs-programming/> [↩](#cite5)  
+<a id="ref6"></a>6. <https://www.avenga.com/magazine/machine-learning-programming/> [↩](#cite6)  
+<a id="ref7"></a>7. <https://www.institutedata.com/blog/machine-learning-vs-traditional-programming-choosing-the-right-approach-for-your-projects/> [↩](#cite7)  
+<a id="ref8"></a>8. <https://aws.amazon.com/what-is/overfitting/> [↩](#cite8)  
+<a id="ref9"></a>9. <https://elitedatascience.com/overfitting-in-machine-learning> [↩](#cite9)  
+<a id="ref10"></a>10. <https://developers.google.com/machine-learning/crash-course/overfitting/overfitting> [↩](#cite10)  
+<a id="ref11"></a>11. <https://www.ibm.com/think/topics/overfitting> [↩](#cite11)  
+<a id="ref12"></a>12. <https://www.geeksforgeeks.org/machine-learning/underfitting-and-overfitting-in-machine-learning/> [↩](#cite12)  
+<a id="ref13"></a>13. <https://github.com/loukesio/Machine-Learning> [↩](#cite13)  
+<a id="ref14"></a>14. <https://www.geeksforgeeks.org/machine-learning/what-is-data-normalization/> [↩](#cite14)  
+<a id="ref15"></a>15. <https://www.datacamp.com/tutorial/normalization-in-machine-learning> [↩](#cite15)  
+<a id="ref16"></a>16. <https://developers.google.com/machine-learning/crash-course/numerical-data/normalization> [↩](#cite16)  
+<a id="ref17"></a>17. <https://www.deepchecks.com/glossary/normalization-in-machine-learning/> [↩](#cite17)  
+<a id="ref18"></a>18. <https://en.wikipedia.org/wiki/Normalization_(machine_learning)> [↩](#cite18)  
+<a id="ref19"></a>19. <https://www.deepchecks.com/precision-vs-recall-in-the-quest-for-model-mastery/> [↩](#cite19)  
+<a id="ref20"></a>20. <https://en.wikipedia.org/wiki/Precision_and_recall> [↩](#cite20)  
+<a id="ref21"></a>21. <https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall> [↩](#cite21)  
+<a id="ref22"></a>22. <https://builtin.com/data-science/precision-and-recall> [↩](#cite22)  
+<a id="ref23"></a>23. <https://h2o.ai/wiki/bias-variance-tradeoff/> [↩](#cite23)  
+<a id="ref24"></a>24. <https://uniathena.com/understanding-bias-variance-tradeoff-balance-model-performance> [↩](#cite24)  
+<a id="ref25"></a>25. <https://serokell.io/blog/bias-variance-tradeoff> [↩](#cite25)  
+<a id="ref26"></a>26. <https://www.geeksforgeeks.org/machine-learning/ml-bias-variance-trade-off/> [↩](#cite26)  
+<a id="ref27"></a>27. <https://www.geeksforgeeks.org/data-analysis/principal-component-analysis-pca/> [↩](#cite27)  
+<a id="ref28"></a>28. <https://builtin.com/data-science/step-step-explanation-principal-component-analysis> [↩](#cite28)  
+<a id="ref29"></a>29. <https://en.wikipedia.org/wiki/Principal_component_analysis> [↩](#cite29)  
+<a id="ref30"></a>30. <https://www.ibm.com/think/topics/principal-component-analysis> [↩](#cite30)  
+<a id="ref31"></a>31. <https://www.geeksforgeeks.org/machine-learning/one-shot-learning-in-machine-learning-1/> [↩](#cite31)  
+<a id="ref32"></a>32. <https://encord.com/blog/one-shot-learning-guide/> [↩](#cite32)  
+<a id="ref33"></a>33. <https://toloka.ai/blog/teaching-machines-with-minimal-data-one-shot-learning/> [↩](#cite33)  
+<a id="ref34"></a>34. <https://www.eimt.edu.eu/what-is-one-shot-learning-approach-in-machine-learning> [↩](#cite34)  
+<a id="ref35"></a>35. <https://serokell.io/blog/nn-and-one-shot-learning> [↩](#cite35)  
+<a id="ref36"></a>36. <https://www.dremio.com/wiki/one-shot-learning/> [↩](#cite36)  
+<a id="ref37"></a>37. <https://www.geeksforgeeks.org/machine-learning/difference-between-batch-gradient-descent-and-stochastic-gradient-descent/> [↩](#cite37)  
+<a id="ref38"></a>38. <https://www.geeksforgeeks.org/machine-learning/ml-stochastic-gradient-descent-sgd/> [↩](#cite38)  
+<a id="ref39"></a>39. <https://www.geeksforgeeks.org/maths/central-limit-theorem/> [↩](#cite39)  
+<a id="ref40"></a>40. <https://www.datacamp.com/tutorial/central-limit-theorem> [↩](#cite40)  
+<a id="ref41"></a>41. <https://en.wikipedia.org/wiki/Central_limit_theorem> [↩](#cite41)  
+<a id="ref42"></a>42. <https://www.scribbr.com/statistics/central-limit-theorem/> [↩](#cite42)  
+<a id="ref43"></a>43. <https://statisticsbyjim.com/basics/central-limit-theorem/> [↩](#cite43)  
+<a id="ref44"></a>44. <https://www.coursera.org/articles/svm> [↩](#cite44)  
+<a id="ref45"></a>45. <https://www.geeksforgeeks.org/machine-learning/support-vector-machine-algorithm/> [↩](#cite45)  
+<a id="ref46"></a>46. <https://en.wikipedia.org/wiki/Support_vector_machine> [↩](#cite46)  
+<a id="ref47"></a>47. <https://www.mathworks.com/discovery/support-vector-machine.html> [↩](#cite47)  
+<a id="ref48"></a>48. <https://www.ibm.com/think/topics/support-vector-machine> [↩](#cite48)  
+<a id="ref49"></a>49. <https://builtin.com/data-science/l2-regularization> [↩](#cite49)  
+<a id="ref50"></a>50. <https://wandb.ai/mostafaibrahim17/ml-articles/reports/Understanding-L1-and-L2-regularization-techniques-for-optimized-model-training--Vmlldzo3NzYwNTM5> [↩](#cite50)  
+<a id="ref51"></a>51. <https://www.tutorialspoint.com/difference-between-l1-and-l2-regularization> [↩](#cite51)  
+<a id="ref52"></a>52. <https://neptune.ai/blog/fighting-overfitting-with-l1-or-l2-regularization> [↩](#cite52)  
+<a id="ref53"></a>53. <https://encord.com/blog/train-val-test-split/> [↩](#cite53)  
+<a id="ref54"></a>54. <https://builtin.com/data-science/train-test-split> [↩](#cite54)  
+<a id="ref55"></a>55. <https://mlu-explain.github.io/train-test-validation/> [↩](#cite55)  
+<a id="ref56"></a>56. <https://www.v7labs.com/blog/train-validation-test-set> [↩](#cite56)  
+<a id="ref57"></a>57. <https://www.reddit.com/r/learnmachinelearning/comments/s60y34/how_to_remove_correlating_features/> [↩](#cite57)  
+<a id="ref58"></a>58. <https://www.projectpro.io/recipes/drop-out-highly-correlated-features-in-python> [↩](#cite58)  
+<a id="ref59"></a>59. <https://campus.datacamp.com/courses/dimensionality-reduction-in-python/feature-selection-i-selecting-for-feature-information?ex=13> [↩](#cite59)  
+<a id="ref60"></a>60. <https://www.rohan-paul.com/p/ml-interview-q-series-when-would-ff2> [↩](#cite60)  
+<a id="ref61"></a>61. <https://zilliz.com/glossary/curse-of-dimensionality-in-machine-learning> [↩](#cite61)  
+<a id="ref62"></a>62. <https://www.geeksforgeeks.org/machine-learning/curse-of-dimensionality-in-machine-learning/> [↩](#cite62)  
+<a id="ref63"></a>63. <https://en.wikipedia.org/wiki/Curse_of_dimensionality> [↩](#cite63)  
+<a id="ref64"></a>64. <https://www.datacamp.com/blog/curse-of-dimensionality-machine-learning> [↩](#cite64)  
+<a id="ref65"></a>65. <https://towardsdatascience.com/curse-of-dimensionality-an-intuitive-exploration-1fbf155e1411/> [↩](#cite65)  
+<a id="ref66"></a>66. <https://www.r-bloggers.com/2024/02/understanding-linear-discriminant-analysis-lda/> [↩](#cite66)  
+<a id="ref67"></a>67. <https://www.geeksforgeeks.org/machine-learning/ml-linear-discriminant-analysis/> [↩](#cite67)  
+<a id="ref68"></a>68. <https://en.wikipedia.org/wiki/Linear_discriminant_analysis> [↩](#cite68)  
+<a id="ref69"></a>69. <https://web.stanford.edu/class/stats202/notes/Classification/LDA.html> [↩](#cite69)  
+<a id="ref70"></a>70. <https://www.geeksforgeeks.org/machine-learning/supervised-vs-reinforcement-vs-unsupervised/> [↩](#cite70)  
+<a id="ref71"></a>71. <https://www.aitude.com/supervised-vs-unsupervised-vs-reinforcement/> [↩](#cite71)  
+<a id="ref72"></a>72. <https://www.educative.io/answers/supervised-vs-unsupervised-vs-reinforcement-learning> [↩](#cite72)  
+<a id="ref73"></a>73. <https://www.phdata.io/blog/difference-between-supervised-unsupervised-reinforcement-learning/> [↩](#cite73)  
+<a id="ref74"></a>74. <https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning> [↩](#cite74)  
+<a id="ref75"></a>75. <https://encord.com/blog/convolutional-neural-networks-explained/> [↩](#cite75)  
+<a id="ref76"></a>76. <https://en.wikipedia.org/wiki/Convolutional_neural_network> [↩](#cite76)  
+<a id="ref77"></a>77. <https://www.xenonstack.com/blog/convolutional-neural-network> [↩](#cite77)  
+<a id="ref78"></a>78. <https://www.flatworldsolutions.com/data-science/articles/7-applications-of-convolutional-neural-networks.php> [↩](#cite78)  
+<a id="ref79"></a>79. <https://www.ibm.com/think/topics/convolutional-neural-networks> [↩](#cite79)  
+<a id="ref80"></a>80. <https://www.alooba.com/skills/concepts/machine-learning/cost-functions/> [↩](#cite80)  
+<a id="ref81"></a>81. <https://www.appliedaicourse.com/blog/cost-function-in-machine-learning/> [↩](#cite81)  
+<a id="ref82"></a>82. <https://builtin.com/machine-learning/cost-function> [↩](#cite82)  
+<a id="ref83"></a>83. <https://www.simplilearn.com/tutorials/machine-learning-tutorial/cost-function-in-machine-learning> [↩](#cite83)  
+<a id="ref84"></a>84. <https://www.geeksforgeeks.org/machine-learning/ml-cost-function-in-logistic-regression/> [↩](#cite84)  
+<a id="ref85"></a>85. <https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall> [↩](#cite85)  
+<a id="ref86"></a>86. <https://www.coursera.org/articles/precision-vs-recall-machine-learning> [↩](#cite86)  
+<a id="ref87"></a>87. <https://encord.com/blog/classification-metrics-accuracy-precision-recall/> [↩](#cite87)  
+<a id="ref88"></a>88. <https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html> [↩](#cite88)  
+<a id="ref89"></a>89. <https://en.wikipedia.org/wiki/Bias–variance_tradeoff> [↩](#cite89)  
+<a id="ref90"></a>90. <https://www.v7labs.com/blog/precision-vs-recall-guide> [↩](#cite90)  
+<a id="ref91"></a>91. <https://www.cs.cmu.edu/~elaw/papers/pca.pdf> [↩](#cite91)  
+<a id="ref92"></a>92. <https://www.geeksforgeeks.org/machine-learning/precision-and-recall-in-machine-learning/> [↩](#cite92)  
+<a id="ref93"></a>93. <https://sebastianraschka.com/faq/docs/few-shot.html> [↩](#cite93)  
+<a id="ref94"></a>94. <https://en.wikipedia.org/wiki/One-shot_learning_(computer_vision)> [↩](#cite94)  
+<a id="ref95"></a>95. <https://aleksandarhaber.com/easy-to-understand-explanation-of-the-stochastic-gradient-descent-algorithm-with-python-implementation-from-scratch/> [↩](#cite95)  
+<a id="ref96"></a>96. <https://en.wikipedia.org/wiki/Stochastic_gradient_descent> [↩](#cite96)  
+<a id="ref97"></a>97. <https://arxiv.org/abs/2201.08815> [↩](#cite97)  
+<a id="ref98"></a>98. <https://sebastianraschka.com/faq/docs/gradient-optimization.html> [↩](#cite98)  
+<a id="ref99"></a>99. <https://www.miquido.com/ai-glossary/one-shot-learning/> [↩](#cite99)  
+<a id="ref100"></a>100. <https://scikit-learn.org/stable/modules/svm.html> [↩](#cite100)  
+<a id="ref101"></a>101. <https://web.mit.edu/6.034/wwwbob/svm-notes-long-08.pdf> [↩](#cite101)  
+<a id="ref102"></a>102. <https://course.ccs.neu.edu/cs5100f11/resources/jakkula.pdf> [↩](#cite102)  
+<a id="ref103"></a>103. <https://www.reddit.com/r/MachineLearning/comments/dgog2h/d_why_is_l2_preferred_over_l1_regularization/> [↩](#cite103)  
+<a id="ref104"></a>104. <https://www.youtube.com/watch?v=_YPScrckx28> [↩](#cite104)  
+<a id="ref105"></a>105. <https://global.trocco.io/blogs/why-do-you-split-data-into-training-and-validation-sets> [↩](#cite105)  
+<a id="ref106"></a>106. <https://www.techtarget.com/whatis/definition/support-vector-machine-SVM> [↩](#cite106)  
+<a id="ref107"></a>107. <https://www.reddit.com/r/datascience/comments/hx04uf/how_to_remove_correlated_features/> [↩](#cite107)  
+<a id="ref108"></a>108. <https://stackoverflow.com/questions/18270899/remove-highly-correlated-components> [↩](#cite108)  
+<a id="ref109"></a>109. <https://stackoverflow.com/questions/75380186/how-to-drop-one-of-any-two-highly-correlated-features-having-low-correlation-wit> [↩](#cite109)  
+<a id="ref110"></a>110. <https://www.diva-portal.org/smash/get/diva2:1632660/FULLTEXT01.pdf> [↩](#cite110)  
+<a id="ref111"></a>111. <https://www.youtube.com/watch?v=FndwYNcVe0U> [↩](#cite111)  
+<a id="ref112"></a>112. <https://www.youtube.com/watch?v=azXCzI57Yfc> [↩](#cite112)  
+<a id="ref113"></a>113. <https://www.youtube.com/watch?v=ZGbXSVZjES4> [↩](#cite113)  
+<a id="ref114"></a>114. <https://aws.amazon.com/compare/the-difference-between-machine-learning-supervised-and-unsupervised/> [↩](#cite114)  
+<a id="ref115"></a>115. <https://www.youtube.com/watch?v=1FZ0A1QCMWc> [↩](#cite115)  
+<a id="ref116"></a>116. <https://www.pecan.ai/blog/3-types-of-machine-learning/> [↩](#cite116)  
+<a id="ref117"></a>117. <https://www.vervecopilot.com/question-bank/difference-between-supervised-unsupervised-reinforcement-learning> [↩](#cite117)  
+<a id="ref118"></a>118. <https://www.linkedin.com/pulse/demystifying-machine-learning-supervised-unsupervised-bushra-akram> [↩](#cite118)  
+
+</details>
+
+
+# Books 
+
+<img src="hands_on.jpeg" style="height:64px;margin-right:32px"/>
+
+# Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow_-Concepts-Tools-and-Techniques-to-Build-Intelligent-System-2022-O-Reilly-Media-libgen.li.pdf
+
+Perfect! I now have comprehensive information from both books. Let me provide you with detailed chapter summaries for the Aurélien Géron book following the same format as the PyTorch book.
+
+## **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (3rd Edition, 2022) - Comprehensive Chapter Summaries**
+
+Based on your uploaded PDF, here are detailed summaries following your requested format:
+
+***
+
+### **Chapter 1: The Machine Learning Landscape**[^1]
+
+**What the Chapter Talks About:**
+This introductory chapter defines machine learning as programming computers to learn from data rather than explicit coding. It covers the main types of ML systems (supervised vs unsupervised, online vs batch, instance-based vs model-based), explains fundamental concepts like training sets, generalization, overfitting/underfitting, and walks through a complete example using linear regression to predict life satisfaction from GDP data. The chapter also discusses the main challenges in ML (insufficient data, poor quality data, irrelevant features, overfitting) and model evaluation strategies.[^1]
+
+**Methods and Libraries Used:**
+
+- **Scikit-Learn Core**: `LinearRegression`, `KNeighborsRegressor`
+- **Pandas**: `pd.read_csv()` for data loading
+- **Matplotlib**: `plot()`, `scatter()` for visualization
+- **NumPy**: `.values` for array conversion
+- **Model Training**: `.fit()`, `.predict()` methods
+- **Data Sources**: OECD Better Life Index, World Bank GDP data[^1]
+
+**Why It's Beneficial and When to Use:**
+
+- **Supervised Learning**: Use when you have labeled data; essential for classification (spam detection) and regression (price prediction). Requires less data engineering than unsupervised approaches.
+- **Unsupervised Learning**: Use for clustering customers, dimensionality reduction, anomaly detection when labels are expensive or unavailable.
+- **Online Learning**: Use when data arrives continuously (stock prices) or when dataset is too large for memory. Enables adaptation to changing patterns without full retraining.
+- **Instance-Based (k-NN)**: Simple and effective for small-medium datasets; no training phase required. Use when similar instances should have similar predictions.
+- **Model-Based (Linear Regression)**: Use when you want interpretable models and can define performance measures. The Normal equation provides closed-form solution for optimal parameters.
+- **When to Use**: This chapter provides decision frameworks for all ML projects—understanding bias/variance tradeoff, train/validation/test splits, and cross-validation prevents common mistakes.[^1]
+
+***
+
+### **Chapter 2: End-to-End Machine Learning Project**[^1]
+
+**What the Chapter Talks About:**
+This chapter walks through a complete ML workflow using the California Housing dataset. It covers the entire pipeline: framing the problem, getting and exploring data, data visualization, train/test splitting with stratified sampling, data cleaning (handling missing values), feature engineering (creating ratio features, cluster similarity features), feature scaling, building transformation pipelines, model selection (Linear Regression, Decision Trees, Random Forests), cross-validation, hyperparameter tuning with GridSearchCV and RandomizedSearchCV, evaluating on test set with confidence intervals, and deploying to production.[^1]
+
+**Methods and Libraries Used:**
+
+- **Data Loading**: `pd.read_csv()`, `tarfile` for extraction
+- **Visualization**: `DataFrame.plot()`, `scatter()`, `hist()`, correlation matrices with `pd.plotting.scatter_matrix()`
+- **Data Splitting**: `train_test_split()`, `StratifiedShuffleSplit`
+- **Preprocessing**: `SimpleImputer`, `OrdinalEncoder`, `OneHotEncoder`, `StandardScaler`
+- **Feature Engineering**: `FunctionTransformer`, custom transformers (`BaseEstimator`, `TransformerMixin`), `KBinsDiscretizer` for binning, `KMeans` for cluster features
+- **Pipelines**: `Pipeline`, `ColumnTransformer`, `make_pipeline()`, `make_column_transformer()`
+- **Models**: `LinearRegression`, `DecisionTreeRegressor`, `RandomForestRegressor`, `SVR`
+- **Evaluation**: `cross_val_score()`, `mean_squared_error()`, `scipy.stats.t.interval()` for confidence intervals
+- **Hyperparameter Tuning**: `GridSearchCV`, `RandomizedSearchCV`
+- **Deployment**: `joblib.dump()`, `joblib.load()`, Google Vertex AI[^1]
+
+**Why It's Beneficial and When to Use:**
+
+- **Stratified Sampling**: Ensures test set is representative; use when certain features (like income categories) are critical to model performance. Prevents sampling bias.
+- **Data Visualization**: Scatterplots with geographic data reveal spatial patterns; use `alpha=0.1` to see density. Correlation matrices identify strong predictors early.
+- **Feature Engineering**: Creating ratios (bedrooms_per_room, people_per_household) often improves performance more than algorithm selection. Cluster similarity features capture location patterns better than raw lat/long.
+- **Pipelines**: Automate preprocessing to prevent data leakage; ensures same transformations during training and inference. Use `ColumnTransformer` when features need different preprocessing.
+- **SimpleImputer**: Handles missing data with strategies (mean, median, most_frequent); use median for skewed distributions. Essential before feeding to algorithms that don't handle NaN.
+- **OneHotEncoder**: Converts categorical variables to binary vectors; use with `handle_unknown="ignore"` for robustness to new categories in production.
+- **StandardScaler**: Normalizes features to same scale; critical for gradient-based algorithms (Linear/Logistic Regression, SVMs, Neural Networks). Less important for tree-based models.
+- **Cross-Validation**: Provides robust performance estimates; use `cv=10` for k-fold. Reveals overfitting when training score >> validation score.
+- **GridSearchCV vs RandomizedSearchCV**: Grid search exhaustive but expensive; use for final tuning with small search space. Random search more efficient for large hyperparameter spaces.
+- **When to Use**: This workflow applies to any supervised learning project. The pipeline pattern is production-ready and prevents common errors like data leakage.[^1]
+
+***
+
+### **Chapter 3: Classification**[^1]
+
+**What the Chapter Talks About:**
+This chapter focuses on classification using the MNIST handwritten digit dataset. It starts with binary classification (detecting 5s), then covers performance metrics (accuracy, confusion matrix, precision, recall, F1-score, ROC curves, AUC), multiclass classification (softmax/OvR/OvO strategies), multilabel classification, and multioutput classification (removing noise from images). The chapter emphasizes that accuracy is misleading for imbalanced datasets and teaches how to select appropriate metrics and decision thresholds.[^1]
+
+**Methods and Libraries Used:**
+
+- **Dataset**: `fetch_openml("mnist_784")` from Scikit-Learn
+- **Binary Classifiers**: `SGDClassifier` (Stochastic Gradient Descent), `DummyClassifier` for baselines
+- **Performance Metrics**: `confusion_matrix`, `precision_score`, `recall_score`, `f1_score`, `precision_recall_curve`, `roc_curve`, `roc_auc_score`, `ConfusionMatrixDisplay`
+- **Cross-Validation**: `cross_val_score()`, `cross_val_predict()`, `StratifiedKFold`
+- **Multiclass**: `RandomForestClassifier`, `SVC`, `OneVsRestClassifier`, `OneVsOneClassifier`
+- **Multilabel**: `KNeighborsClassifier`
+- **Multioutput**: `KNeighborsClassifier` for image denoising
+- **Visualization**: `plt.imshow()`, confusion matrix heatmaps
+- **Data Augmentation**: `scipy.ndimage.interpolation.shift()` for generating rotated/shifted images[^1]
+
+**Why It's Beneficial and When to Use:**
+
+- **SGDClassifier**: Handles large datasets efficiently; trains one instance at a time. Use for online learning and when dataset doesn't fit in memory. Fast but may need careful learning rate tuning.
+- **Confusion Matrix**: Reveals which classes are confused; better than accuracy alone. Normalize by row to see error rates per class, by column to see false positive rates.
+- **Precision vs Recall Tradeoff**: High precision (few false positives) for applications where false alarms are costly (spam filter flagging legitimate email). High recall (few false negatives) when missing positives is dangerous (cancer detection). Adjust decision threshold using `decision_function()`.
+- **F1-Score**: Harmonic mean of precision/recall; use when you want single metric balancing both. Favors classifiers with similar precision and recall.
+- **ROC Curve \& AUC**: Compare classifiers regardless of threshold; AUC of 1.0 is perfect. Use ROC when classes are balanced, PR curve when positive class is rare.
+- **cross_val_predict()**: Gets predictions for each instance using cross-validation; essential for computing metrics on clean out-of-sample predictions.
+- **Multiclass Strategies**: OvR (One-vs-Rest) trains N classifiers; use with algorithms like SVM. OvO trains N(N-1)/2 classifiers; slower but sometimes more accurate. Softmax (multinomial logistic) directly outputs probabilities for all classes; use with neural networks.
+- **Multilabel Classification**: Use when instances can belong to multiple classes (tagging photos with multiple people). Evaluate with `average="weighted"` or `average="macro"`.
+- **Data Augmentation**: Artificially expand training set by creating slightly modified copies (shifted, rotated, scaled images). Improves generalization especially with small datasets.
+- **When to Use**: Classification metrics critical for any classification project. SGD perfect for large-scale text classification or when data streams continuously.[^1]
+
+***
+
+### **Chapter 4: Training Models**[^1]
+
+**What the Chapter Talks About:**
+This chapter dives into how ML algorithms actually work internally. It explains Linear Regression (Normal Equation and Gradient Descent variants: Batch, Stochastic, Mini-Batch), Polynomial Regression for nonlinear data, learning curves for detecting overfitting/underfitting, and regularization techniques (Ridge/Lasso/Elastic Net). It also covers Logistic Regression for binary classification and Softmax Regression for multiclass problems, explaining the math behind gradient computation and parameter optimization.[^1]
+
+**Methods and Libraries Used:**
+
+- **Linear Models**: `LinearRegression`, `Ridge`, `Lasso`, `ElasticNet`, `SGDRegressor`
+- **Optimization**: Normal equation (`np.linalg.lstsq`, `np.linalg.pinv`), manual gradient descent implementation
+- **Polynomial Features**: `PolynomialFeatures` for feature engineering
+- **Learning Curves**: `learning_curve()` from `sklearn.model_selection`
+- **Classification**: `LogisticRegression`, `SGDClassifier` with log loss, Softmax Regression
+- **Mathematical Operations**: NumPy for matrix operations (`@`, `.T`, `np.linalg.inv`)
+- **Regularization**: L1 (Lasso), L2 (Ridge), Elastic Net (L1 + L2)[^1]
+
+**Why It's Beneficial and When to Use:**
+
+- **Normal Equation**: Computes optimal parameters in one step: $\hat{\theta} = (X^T X)^{-1} X^T y$; use for small datasets (<10K instances) when features aren't too numerous. No hyperparameters to tune. Doesn't scale to large datasets (O(n²·m) complexity).
+- **Batch Gradient Descent**: Computes gradient using entire training set; slow but converges to global minimum for convex functions. Use with small-medium datasets. Requires feature scaling.
+- **Stochastic Gradient Descent (SGD)**: Updates parameters after each instance; very fast but erratic convergence. Use for large datasets (millions of instances) and online learning. Set learning rate schedule to converge.
+- **Mini-Batch GD**: Compromise between batch and SGD; updates after small batches (32-256 instances). Use for large datasets with GPU acceleration. Most common in deep learning.
+- **Learning Rate**: Critical hyperparameter; too large causes divergence, too small slows convergence. Use grid search or learning rate schedulers. Typical values: 0.001-0.1.
+- **Polynomial Regression**: Fits nonlinear relationships by creating polynomial features; use `PolynomialFeatures(degree=d)`. Risk of overfitting with high degrees—use regularization.
+- **Learning Curves**: Plot training/validation error vs dataset size; reveals whether model suffers from high bias (underfitting—both curves plateau high) or high variance (overfitting—large gap between curves).
+- **Ridge Regression (L2)**: Adds $\alpha \sum \theta_i^2$ to cost; keeps all features but shrinks weights. Use when all features potentially useful. Less feature selection than Lasso.
+- **Lasso Regression (L1)**: Adds $\alpha \sum |\theta_i|$ to cost; drives some weights to exactly zero (automatic feature selection). Use for high-dimensional data with many irrelevant features.
+- **Elastic Net**: Combines L1 and L2; controlled by `l1_ratio`. Use as default over pure Lasso (more stable). Generally preferred over Ridge when feature selection needed.
+- **Logistic Regression**: Estimates class probabilities using sigmoid function; outputs values in. Use for binary classification. Can be extended to multiclass with OvR.[^2]
+- **Softmax Regression**: Generalizes logistic regression to K classes; outputs probability distribution over all classes. Use for mutually exclusive multiclass problems.
+- **When to Use**: Understanding gradient descent essential for deep learning. Regularization crucial for models with many features. Learning curves guide model selection and complexity.[^1]
+
+***
+
+### **Chapter 5: Support Vector Machines**[^1]
+
+**What the Chapter Talks About:**
+This chapter covers Support Vector Machines, powerful models for classification and regression that work by finding the maximum margin decision boundary. It explains linear SVM classification (hard and soft margin), the kernel trick for nonlinear problems (polynomial and RBF kernels), SVM regression (SVR), and the mathematical foundations including the dual problem and how support vectors define the decision boundary.[^1]
+
+**Methods and Libraries Used:**
+
+- **Linear SVM**: `LinearSVC`, `SVC(kernel="linear")`, `SGDClassifier(loss="hinge")`
+- **Nonlinear SVM**: `SVC(kernel="poly")`, `SVC(kernel="rbf")`, `SVC(kernel="sigmoid")`
+- **SVM Regression**: `LinearSVR`, `SVR`
+- **Preprocessing**: `StandardScaler` (critical for SVMs)
+- **Pipeline**: Combining scaling and SVM
+- **Hyperparameters**: `C` (regularization), `gamma` (RBF kernel width), `degree` (polynomial kernel)
+- **Kernel Functions**: Polynomial, Radial Basis Function (Gaussian), Sigmoid[^1]
+
+**Why It's Beneficial and When to Use:**
+
+- **Large Margin Classification**: SVMs find the widest "street" separating classes, maximizing distance to nearest instances (support vectors). Results in better generalization than models that just minimize training error.
+- **Support Vectors**: Only instances on margin boundary affect decision boundary; removing other instances doesn't change model. Makes SVMs memory-efficient during prediction.
+- **Soft Margin (C parameter)**: Controls margin width vs margin violations tradeoff. Large C = narrow margin, fewer violations (risk overfitting). Small C = wider margin, more violations (better generalization). Tune with cross-validation; typical range: 0.1-100.
+- **Feature Scaling**: Critical for SVMs since distance-based. Always use `StandardScaler` before SVM training. Without scaling, features with large ranges dominate.
+- **Kernel Trick**: Enables nonlinear classification without explicitly computing high-dimensional transformations. Computes dot products efficiently in feature space.
+- **Polynomial Kernel**: Use for problems where feature interactions important; `degree=3` good starting point. `coef0` controls influence of low vs high-degree polynomials.
+- **RBF (Gaussian) Kernel**: Most popular kernel; acts like similarity measure to landmarks. Small `gamma` (e.g., 0.1) = smooth decision boundary. Large `gamma` (e.g., 10) = tight around instances (risk overfitting). Use as default for nonlinear problems.
+- **SVM Regression (SVR)**: Fits data within ε-tube; tries to fit as many instances as possible inside tube while limiting margin violations. Use `SVR(kernel="rbf")` for nonlinear regression. `epsilon` controls tube width.
+- **Computational Complexity**: Training time O(m² · n) to O(m³ · n); doesn't scale to very large datasets (>100K instances). Use `LinearSVC` or `SGDClassifier` for large datasets.
+- **When to Use**: Small-medium datasets (hundreds to thousands of instances) with complex, nonlinear decision boundaries. Computer vision (before deep learning era), text classification, bioinformatics. Not ideal for very large datasets or when interpretability crucial.[^1]
+
+***
+
+### **Chapter 10: Introduction to Artificial Neural Networks with Keras**[^1]
+
+**What the Chapter Talks About:**
+This chapter introduces deep learning with Keras. It covers the biological inspiration for neural networks, the perceptron, multilayer perceptrons (MLPs), activation functions (ReLU, sigmoid, softmax), Keras's Sequential and Functional APIs, building classification and regression models, using callbacks (ModelCheckpoint, EarlyStopping, TensorBoard), hyperparameter tuning with Keras Tuner, and saving/loading models. It uses Fashion MNIST for hands-on examples.[^1]
+
+**Methods and Libraries Used:**
+
+- **Keras Models**: `Sequential`, `Functional API`, `Subclassing API`
+- **Layers**: `Dense`, `Flatten`, `Dropout`, `BatchNormalization`, `Input`
+- **Activations**: `activation="relu"`, `"sigmoid"`, `"softmax"`, `"tanh"`, `"selu"`
+- **Optimizers**: `optimizer="sgd"`, `"adam"`, `"nadam"`, `SGD(learning_rate=0.01, momentum=0.9)`
+- **Loss Functions**: `"sparse_categorical_crossentropy"`, `"categorical_crossentropy"`, `"binary_crossentropy"`, `"mse"`, `"huber"`
+- **Metrics**: `metrics=["accuracy"]`, `"mae"`, custom metrics
+- **Callbacks**: `ModelCheckpoint`, `EarlyStopping`, `TensorBoard`, `ReduceLROnPlateau`, `LearningRateScheduler`
+- **Datasets**: `tf.keras.datasets.fashion_mnist`, `tf.keras.datasets.mnist`
+- **Hyperparameter Tuning**: Keras Tuner (`RandomSearch`, `BayesianOptimization`, `Hyperband`)
+- **Saving/Loading**: `model.save()`, `tf.keras.models.load_model()`, `model.save_weights()`, `model.load_weights()`[^1]
+
+**Why It's Beneficial and When to Use:**
+
+- **Sequential API**: Simplest way to build linear stack of layers; use for 90% of models. Just list layers in order. Example: `Sequential([Flatten(), Dense(300, activation="relu"), Dense(10, activation="softmax")])`.
+- **ReLU Activation**: Default activation for hidden layers; solves vanishing gradient problem. Computationally efficient (just max(0, z)). Use in all hidden layers unless specific reason not to.
+- **Softmax Output**: Use for multiclass classification; outputs probability distribution summing to 1. Pair with `sparse_categorical_crossentropy` loss (for integer labels) or `categorical_crossentropy` (for one-hot labels).
+- **Fashion MNIST**: More challenging than MNIST (28×28 grayscale images of clothing); good benchmark for comparing architectures. Linear model gets ~83% accuracy, simple MLP gets ~89%.
+- **model.compile()**: Configures learning process; must specify loss, optimizer, and metrics before training. Loss defines what to minimize; metrics are for human evaluation only.
+- **model.fit()**: Trains model; key arguments: `epochs` (passes through dataset), `validation_data` (for monitoring overfitting), `batch_size` (default 32). Returns History object with training metrics.
+- **ModelCheckpoint**: Saves best model during training; use `save_best_only=True` to keep only model with best validation performance. Prevents losing good model if training degrades.
+- **EarlyStopping**: Stops training when validation performance stops improving; use `patience=10` to wait 10 epochs before stopping. Prevents overfitting and saves training time.
+- **TensorBoard**: Visualizes training curves, model graph, profiling; use `TensorBoard(log_dir=...)` callback. Launch with `tensorboard --logdir=logs`. Essential for debugging training.
+- **Keras Tuner**: Automates hyperparameter search; more sophisticated than GridSearchCV. `Hyperband` efficient for neural networks. Searches over architecture (layers, units) and training hyperparameters (learning rate).
+- **Functional API**: More flexible than Sequential; allows multiple inputs/outputs, branching, sharing layers. Use when model has complex topology (e.g., ResNet skip connections).
+- **Regression with MLPs**: Use no activation (or ReLU for positive outputs) in output layer; use MSE or Huber loss. Huber loss robust to outliers (quadratic for small errors, linear for large).
+- **When to Use**: Keras is the standard for prototyping neural networks. Use Sequential API for simple models, Functional for complex architectures. MLPs work well for tabular data when feature engineered properly. For images, use CNNs (Chapter 14); for sequences, use RNNs/Transformers (Chapters 15-16).[^1]
+
+***
+
+### **Chapter 13: Loading and Preprocessing Data with TensorFlow**[^1]
+
+**What the Chapter Talks About:**
+This chapter focuses on building efficient data pipelines using the `tf.data` API. It covers creating datasets from various sources (in-memory, files, TFRecord), transforming datasets (map, filter, batch, shuffle, prefetch, cache), handling large datasets that don't fit in memory, preprocessing with TensorFlow (normalization, encoding), using preprocessing layers within models, and integrating with TensorFlow Datasets (TFDS) for accessing popular datasets.[^1]
+
+**Methods and Libraries Used:**
+
+- **tf.data API**: `tf.data.Dataset.from_tensor_slices()`, `.from_generator()`, `.list_files()`, `.interleave()`, `.skip()`, `.take()`
+- **Transformations**: `.map()`, `.filter()`, `.batch()`, `.shuffle()`, `.prefetch()`, `.cache()`, `.repeat()`, `.window()`
+- **TFRecord**: `tf.train.Example`, `tf.train.Feature`, `tf.io.TFRecordWriter`, `tf.data.TFRecordDataset`, `tf.io.parse_single_example()`, `tf.io.FixedLenFeature`, `tf.io.VarLenFeature`
+- **Preprocessing Layers**: `tf.keras.layers.Normalization`, `TextVectorization`, `CategoryEncoding`, `Discretization`, `StringLookup`, `IntegerLookup`, `Hashing`
+- **Image Preprocessing**: `tf.keras.preprocessing.image.ImageDataGenerator`, `tf.keras.utils.image_dataset_from_directory()`
+- **TFDS**: `tfds.load()`, automatic downloading and caching
+- **Profiling**: `tf.data.experimental.AUTOTUNE`, TensorBoard profiling[^1]
+
+**Why It's Beneficial and When to Use:**
+
+- **tf.data.Dataset**: Efficient data loading abstraction; lazy evaluation, pipelining, and prefetching maximize GPU utilization. Use for any TensorFlow project; superior to feeding NumPy arrays.
+- **Prefetching**: Loads next batch while GPU processes current batch; eliminates CPU as bottleneck. Always add `.prefetch(1)` at end of pipeline. Use `tf.data.AUTOTUNE` to automatically optimize buffer size.
+- **Shuffling**: Randomizes training order; critical for SGD convergence. Use `buffer_size=10000` or larger. Shuffle before batching. Set `reshuffle_each_iteration=True` to reshuffle every epoch.
+- **Caching**: Stores dataset in memory (or disk) after first epoch; speeds up repeated iterations. Use `.cache()` after expensive preprocessing. Only cache if dataset fits in RAM.
+- **Batching**: Groups instances for vectorized operations; essential for GPU efficiency. Typical batch sizes: 32-256. Use `.padded_batch()` for variable-length sequences.
+- **Mapping (map)**: Applies transformation to each element; use for preprocessing (normalization, augmentation). Set `num_parallel_calls=tf.data.AUTOTUNE` for parallel processing.
+- **Interleaving**: Reads from multiple files in parallel; speeds up data loading from sharded datasets. Use `.interleave(cycle_length=5, num_parallel_calls=AUTOTUNE)` for parallel file reading.
+- **TFRecord**: TensorFlow's binary format; efficient for large datasets. Protocol Buffer based. Use for datasets >1GB or when loading speed critical. Compress with GZIP for smaller files (slower read).
+- **Preprocessing Layers**: Keras layers for data transformation; can be included in model for end-to-end deployment. `Normalization` adapts to data statistics. `TextVectorization` tokenizes and converts text to integers.
+- **TFDS (TensorFlow Datasets)**: Provides 200+ ready-to-use datasets; handles downloading, caching, splitting. Use `as_supervised=True` to get (features, labels) tuples. Supports `split="train[:90%]"` for custom splits.
+- **ImageDataGenerator**: Legacy API for image augmentation (rotation, zoom, flip); use `preprocessing.image.ImageDataGenerator()`. Newer approach: use Keras preprocessing layers (Chapter 14).
+- **When to Use**: Essential for production ML systems. Use tf.data pipeline for any dataset that doesn't fit in memory. TFRecord format for large-scale training. TFDS for quick experimentation with standard datasets. Proper data pipeline can speed up training 10x or more.[^1]
+
+***
+
+### **Chapter 14: Deep Computer Vision Using Convolutional Neural Networks**[^1]
+
+**What the Chapter Talks About:**
+This chapter covers CNNs, the dominant architecture for computer vision. It explains the biological inspiration from the visual cortex, convolutional layers (filters, feature maps, stride, padding), pooling layers, CNN architectures (LeNet-5, AlexNet, GoogLeNet/Inception, VGGNet, ResNet, Xception, SENet, DenseNet, EfficientNet, MobileNet), transfer learning, data augmentation, object detection (YOLO, SSD, Faster R-CNN), semantic segmentation, and using pretrained models from `tf.keras.applications`.[^1]
+
+**Methods and Libraries Used:**
+
+- **CNN Layers**: `Conv2D`, `MaxPooling2D`, `AveragePooling2D`, `GlobalAveragePooling2D`, `SeparableConv2D`, `DepthwiseConv2D`
+- **Advanced Layers**: `BatchNormalization`, `Dropout`, `ZeroPadding2D`, `Flatten`
+- **Architectures**: `tf.keras.applications.ResNet50`, `VGG16`, `InceptionV3`, `MobileNetV2`, `EfficientNetB0`, `DenseNet121`, `Xception`
+- **Transfer Learning**: `include_top=False`, `weights="imagenet"`, freezing layers, fine-tuning
+- **Data Augmentation**: `RandomFlip`, `RandomRotation`, `RandomZoom`, `RandomContrast`, `RandomTranslation`, `ImageDataGenerator` (legacy)
+- **Preprocessing**: `tf.keras.applications.resnet50.preprocess_input()` (model-specific)
+- **Object Detection**: `tf.keras.applications.EfficientDet`, custom implementations
+- **Semantic Segmentation**: U-Net architecture, FCN (Fully Convolutional Networks)
+- **Visualization**: `tf.keras.utils.plot_model()`, activation maximization, Grad-CAM[^1]
+
+**Why It's Beneficial and When to Use:**
+
+- **Convolutional Layers**: Detect local patterns (edges, textures) using small filters; parameters shared across spatial locations (weight sharing = fewer parameters). Use for any spatial data (images, audio spectrograms, time series with spatial structure).
+- **Filters/Kernels**: Small matrices (typically 3×3 or 5×5) that slide over input; learn to detect features. Early layers detect simple patterns (edges), deeper layers detect complex patterns (faces, objects). Number of filters = number of feature maps.
+- **Stride \& Padding**: Stride controls output size (stride=2 downsamples by half). Padding="same" maintains spatial dimensions (adds zeros around borders). Padding="valid" no padding (output smaller).
+- **Pooling Layers**: Downsample feature maps; reduce computational cost and provide translation invariance. MaxPooling keeps strongest activations. Use 2×2 pooling with stride=2 to halve dimensions.
+- **CNN Architecture Pattern**: Input → [Conv → ReLU → Pool] × N → Flatten → Dense × M → Softmax. Stack multiple conv layers before pooling to learn more complex patterns.
+- **Transfer Learning**: Use pretrained models trained on ImageNet (1.4M images, 1000 classes); extract features or fine-tune. Dramatically reduces training data requirements. Use `include_top=False` to remove classification head, add custom layers for your task.
+- **Fine-Tuning Strategy**: 1) Freeze all pretrained layers, train only new layers. 2) Unfreeze top layers, fine-tune with very low learning rate (0.0001). Use when you have moderate amount of data (thousands of images).
+- **Data Augmentation**: Artificially expand training set by applying random transformations (flip, rotate, zoom, crop, brightness, contrast). Reduces overfitting significantly. Apply during training only, not validation/test.
+- **Batch Normalization**: Normalizes inputs to each layer; stabilizes training, enables higher learning rates, acts as regularizer. Place after Conv/Dense layers, before activation (or after, both work).
+- **ResNet (Residual Networks)**: Introduces skip connections that add layer input to output; solves vanishing gradient problem in very deep networks (50-152 layers). Use ResNet50/ResNet101 as default for image classification.
+- **Inception Modules**: Parallel convolutions with different kernel sizes (1×1, 3×3, 5×5); captures patterns at multiple scales. More computationally efficient than naive multi-scale approach.
+- **EfficientNet**: Systematically scales network depth, width, and resolution; achieves state-of-the-art accuracy with fewer parameters. Use EfficientNetB0-B7 depending on computational budget.
+- **MobileNet**: Optimized for mobile/edge devices using depthwise separable convolutions; 10x fewer parameters than standard CNNs with minimal accuracy loss. Use when deploying to mobile devices or when inference speed critical.
+- **Semantic Segmentation**: Pixel-wise classification; outputs class for every pixel. Use U-Net architecture (encoder-decoder with skip connections) for medical imaging, autonomous driving.
+- **Object Detection**: Localize and classify multiple objects in image. YOLO (You Only Look Once) extremely fast (real-time). Faster R-CNN more accurate but slower. Use pretrained models from TensorFlow Object Detection API.
+- **When to Use**: CNNs are the standard for any image-related task: classification, object detection, segmentation, image generation, style transfer. Transfer learning works remarkably well—use pretrained models whenever possible. Data augmentation essential for small datasets (<10K images).[^1]
+
+***
+
+## **Summary**
+
+The Aurélien Géron book is incredibly comprehensive, covering the entire ML spectrum from foundational concepts to state-of-the-art deep learning. The book is organized into two parts:
+
+**Part I (Chapters 1-9)**: Classical machine learning with Scikit-Learn—linear models, SVMs, decision trees, ensembles, dimensionality reduction, and unsupervised learning.
+
+**Part II (Chapters 10-19)**: Deep learning with TensorFlow/Keras—neural networks, CNNs, RNNs, transformers, autoencoders, GANs, diffusion models, reinforcement learning, and production deployment.
+
+The book emphasizes hands-on coding with real datasets, proper evaluation methodology, and production best practices. Every chapter includes practical exercises and Jupyter notebooks. The 3rd edition (2022) is the most up-to-date, covering transformers, vision transformers, diffusion models, and modern deployment strategies.[^1]
+
+***
+
+Would you like me to continue with more chapters from this book, or would you like summaries from any other PDF you might upload?
+<span style="display:none">[^3]</span>
+
 <div align="center">⁂</div>
 
-[^1]: https://insightsoftware.com/blog/machine-learning-vs-traditional-programming/
+[^1]: https://www.scribd.com/document/638041606/CHAPTER-1
 
-[^2]: https://www.linkedin.com/pulse/how-machine-learning-different-from-general-programming-zlcuf
+[^2]: https://www.pewresearch.org/internet/2007/12/30/chapter-1-libraries-information-and-the-internet/
 
-[^3]: https://www.geeksforgeeks.org/machine-learning/traditional-programming-vs-machine-learning/
-
-[^4]: https://unp.education/content/how-machine-learning-is-different-from-general-programming/
-
-[^5]: https://sparks.codezela.com/machine-learning-vs-programming/
-
-[^6]: https://www.avenga.com/magazine/machine-learning-programming/
-
-[^7]: https://www.institutedata.com/blog/machine-learning-vs-traditional-programming-choosing-the-right-approach-for-your-projects/
-
-[^8]: https://aws.amazon.com/what-is/overfitting/
-
-[^9]: https://elitedatascience.com/overfitting-in-machine-learning
-
-[^10]: https://developers.google.com/machine-learning/crash-course/overfitting/overfitting
-
-[^11]: https://www.ibm.com/think/topics/overfitting
-
-[^12]: https://www.geeksforgeeks.org/machine-learning/underfitting-and-overfitting-in-machine-learning/
-
-[^13]: https://github.com/loukesio/Machine-Learning
-
-[^14]: https://www.geeksforgeeks.org/machine-learning/what-is-data-normalization/
-
-[^15]: https://www.datacamp.com/tutorial/normalization-in-machine-learning
-
-[^16]: https://developers.google.com/machine-learning/crash-course/numerical-data/normalization
-
-[^17]: https://www.deepchecks.com/glossary/normalization-in-machine-learning/
-
-[^18]: https://en.wikipedia.org/wiki/Normalization_(machine_learning)
-
-[^19]: https://www.deepchecks.com/precision-vs-recall-in-the-quest-for-model-mastery/
-
-[^20]: https://en.wikipedia.org/wiki/Precision_and_recall
-
-[^21]: https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall
-
-[^22]: https://builtin.com/data-science/precision-and-recall
-
-[^23]: https://h2o.ai/wiki/bias-variance-tradeoff/
-
-[^24]: https://uniathena.com/understanding-bias-variance-tradeoff-balance-model-performance
-
-[^25]: https://serokell.io/blog/bias-variance-tradeoff
-
-[^26]: https://www.geeksforgeeks.org/machine-learning/ml-bias-variance-trade-off/
-
-[^27]: https://www.geeksforgeeks.org/data-analysis/principal-component-analysis-pca/
-
-[^28]: https://builtin.com/data-science/step-step-explanation-principal-component-analysis
-
-[^29]: https://en.wikipedia.org/wiki/Principal_component_analysis
-
-[^30]: https://www.ibm.com/think/topics/principal-component-analysis
-
-[^31]: https://www.geeksforgeeks.org/machine-learning/one-shot-learning-in-machine-learning-1/
-
-[^32]: https://encord.com/blog/one-shot-learning-guide/
-
-[^33]: https://toloka.ai/blog/teaching-machines-with-minimal-data-one-shot-learning/
-
-[^34]: https://www.eimt.edu.eu/what-is-one-shot-learning-approach-in-machine-learning
-
-[^35]: https://serokell.io/blog/nn-and-one-shot-learning
-
-[^36]: https://www.dremio.com/wiki/one-shot-learning/
-
-[^37]: https://www.geeksforgeeks.org/machine-learning/difference-between-batch-gradient-descent-and-stochastic-gradient-descent/
-
-[^38]: https://www.geeksforgeeks.org/machine-learning/ml-stochastic-gradient-descent-sgd/
-
-[^39]: https://www.geeksforgeeks.org/maths/central-limit-theorem/
-
-[^40]: https://www.datacamp.com/tutorial/central-limit-theorem
-
-[^41]: https://en.wikipedia.org/wiki/Central_limit_theorem
-
-[^42]: https://www.scribbr.com/statistics/central-limit-theorem/
-
-[^43]: https://statisticsbyjim.com/basics/central-limit-theorem/
-
-[^44]: https://www.coursera.org/articles/svm
-
-[^45]: https://www.geeksforgeeks.org/machine-learning/support-vector-machine-algorithm/
-
-[^46]: https://en.wikipedia.org/wiki/Support_vector_machine
-
-[^47]: https://www.mathworks.com/discovery/support-vector-machine.html
-
-[^48]: https://www.ibm.com/think/topics/support-vector-machine
-
-[^49]: https://builtin.com/data-science/l2-regularization
-
-[^50]: https://wandb.ai/mostafaibrahim17/ml-articles/reports/Understanding-L1-and-L2-regularization-techniques-for-optimized-model-training--Vmlldzo3NzYwNTM5
-
-[^51]: https://www.tutorialspoint.com/difference-between-l1-and-l2-regularization
-
-[^52]: https://neptune.ai/blog/fighting-overfitting-with-l1-or-l2-regularization
-
-[^53]: https://encord.com/blog/train-val-test-split/
-
-[^54]: https://builtin.com/data-science/train-test-split
-
-[^55]: https://mlu-explain.github.io/train-test-validation/
-
-[^56]: https://www.v7labs.com/blog/train-validation-test-set
-
-[^57]: https://www.reddit.com/r/learnmachinelearning/comments/s60y34/how_to_remove_correlating_features/
-
-[^58]: https://www.projectpro.io/recipes/drop-out-highly-correlated-features-in-python
-
-[^59]: https://campus.datacamp.com/courses/dimensionality-reduction-in-python/feature-selection-i-selecting-for-feature-information?ex=13
-
-[^60]: https://www.rohan-paul.com/p/ml-interview-q-series-when-would-ff2
-
-[^61]: https://zilliz.com/glossary/curse-of-dimensionality-in-machine-learning
-
-[^62]: https://www.geeksforgeeks.org/machine-learning/curse-of-dimensionality-in-machine-learning/
-
-[^63]: https://en.wikipedia.org/wiki/Curse_of_dimensionality
-
-[^64]: https://www.datacamp.com/blog/curse-of-dimensionality-machine-learning
-
-[^65]: https://towardsdatascience.com/curse-of-dimensionality-an-intuitive-exploration-1fbf155e1411/
-
-[^66]: https://www.r-bloggers.com/2024/02/understanding-linear-discriminant-analysis-lda/
-
-[^67]: https://www.geeksforgeeks.org/machine-learning/ml-linear-discriminant-analysis/
-
-[^68]: https://en.wikipedia.org/wiki/Linear_discriminant_analysis
-
-[^69]: https://web.stanford.edu/class/stats202/notes/Classification/LDA.html
-
-[^70]: https://www.geeksforgeeks.org/machine-learning/supervised-vs-reinforcement-vs-unsupervised/
-
-[^71]: https://www.aitude.com/supervised-vs-unsupervised-vs-reinforcement/
-
-[^72]: https://www.educative.io/answers/supervised-vs-unsupervised-vs-reinforcement-learning
-
-[^73]: https://www.phdata.io/blog/difference-between-supervised-unsupervised-reinforcement-learning/
-
-[^74]: https://www.ibm.com/think/topics/supervised-vs-unsupervised-learning
-
-[^75]: https://encord.com/blog/convolutional-neural-networks-explained/
-
-[^76]: https://en.wikipedia.org/wiki/Convolutional_neural_network
-
-[^77]: https://www.xenonstack.com/blog/convolutional-neural-network
-
-[^78]: https://www.flatworldsolutions.com/data-science/articles/7-applications-of-convolutional-neural-networks.php
-
-[^79]: https://www.ibm.com/think/topics/convolutional-neural-networks
-
-[^80]: https://www.alooba.com/skills/concepts/machine-learning/cost-functions/
-
-[^81]: https://www.appliedaicourse.com/blog/cost-function-in-machine-learning/
-
-[^82]: https://builtin.com/machine-learning/cost-function
-
-[^83]: https://www.simplilearn.com/tutorials/machine-learning-tutorial/cost-function-in-machine-learning
-
-[^84]: https://www.geeksforgeeks.org/machine-learning/ml-cost-function-in-logistic-regression/
-
-[^85]: https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall
-
-[^86]: https://www.coursera.org/articles/precision-vs-recall-machine-learning
-
-[^87]: https://encord.com/blog/classification-metrics-accuracy-precision-recall/
-
-[^88]: https://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html
-
-[^89]: https://en.wikipedia.org/wiki/Bias–variance_tradeoff
-
-[^90]: https://www.v7labs.com/blog/precision-vs-recall-guide
-
-[^91]: https://www.cs.cmu.edu/~elaw/papers/pca.pdf
-
-[^92]: https://www.geeksforgeeks.org/machine-learning/precision-and-recall-in-machine-learning/
-
-[^93]: https://sebastianraschka.com/faq/docs/few-shot.html
-
-[^94]: https://en.wikipedia.org/wiki/One-shot_learning_(computer_vision)
-
-[^95]: https://aleksandarhaber.com/easy-to-understand-explanation-of-the-stochastic-gradient-descent-algorithm-with-python-implementation-from-scratch/
-
-[^96]: https://en.wikipedia.org/wiki/Stochastic_gradient_descent
-
-[^97]: https://arxiv.org/abs/2201.08815
-
-[^98]: https://sebastianraschka.com/faq/docs/gradient-optimization.html
-
-[^99]: https://www.miquido.com/ai-glossary/one-shot-learning/
-
-[^100]: https://scikit-learn.org/stable/modules/svm.html
-
-[^101]: https://web.mit.edu/6.034/wwwbob/svm-notes-long-08.pdf
-
-[^102]: https://course.ccs.neu.edu/cs5100f11/resources/jakkula.pdf
-
-[^103]: https://www.reddit.com/r/MachineLearning/comments/dgog2h/d_why_is_l2_preferred_over_l1_regularization/
-
-[^104]: https://www.youtube.com/watch?v=_YPScrckx28
-
-[^105]: https://global.trocco.io/blogs/why-do-you-split-data-into-training-and-validation-sets
-
-[^106]: https://www.techtarget.com/whatis/definition/support-vector-machine-SVM
-
-[^107]: https://www.reddit.com/r/datascience/comments/hx04uf/how_to_remove_correlated_features/
-
-[^108]: https://stackoverflow.com/questions/18270899/remove-highly-correlated-components
-
-[^109]: https://stackoverflow.com/questions/75380186/how-to-drop-one-of-any-two-highly-correlated-features-having-low-correlation-wit
-
-[^110]: https://www.diva-portal.org/smash/get/diva2:1632660/FULLTEXT01.pdf
-
-[^111]: https://www.youtube.com/watch?v=FndwYNcVe0U
-
-[^112]: https://www.youtube.com/watch?v=azXCzI57Yfc
-
-[^113]: https://www.youtube.com/watch?v=ZGbXSVZjES4
-
-[^114]: https://aws.amazon.com/compare/the-difference-between-machine-learning-supervised-and-unsupervised/
-
-[^115]: https://www.youtube.com/watch?v=1FZ0A1QCMWc
-
-[^116]: https://www.pecan.ai/blog/3-types-of-machine-learning/
-
-[^117]: https://www.vervecopilot.com/question-bank/difference-between-supervised-unsupervised-reinforcement-learning
-
-[^118]: https://www.linkedin.com/pulse/demystifying-machine-learning-supervised-unsupervised-bushra-akram
+[^3]: Aurelien-Geron-Hands-On-Machine-Learning-with-Scikit-Learn-Keras-and-TensorFlow_-Concepts-Tools-.pdf
 
